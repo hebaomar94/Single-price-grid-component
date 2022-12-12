@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f1f1f0;
+  font-size: 100%;
+  font-weight: 500;
+  background: url(https://freefrontend.com/assets/img/css-animation-examples/Pure-CSS-Animated-Bubbles.png);
+}
+
+.main {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  padding: 100px 30px;
+}
+
+.container {
+  width: 90%;
+  padding: 10%;
+  margin-top: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px  12PX lightblue;
+  background-color: white;
+  //position: absolute;
+  margin-left: 250px;
+
+}
+
+h1 {
+  color: #66bfbd;
+}
+
+h2 {
+  color: #e6f598;
+}
+.section-head p {
+  color: #b7b9be;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.flex-container {
+  margin: -25px;
+  color: white;
+}
+
+.flex-left {
+  background-color: #2ab3b0;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+.flex-left p {
+  color: white;
+}
+
+.flex-right {
+  background-color: #4bbebc;
+  line-height: 1.4;
+ 
+  padding: 30px;
+
+
+}
+.date {
+  position: absolute;
+  color: gray;
+  margin-top: 10px;
+  margin-left: 17px;
+}
+.dol {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.btn {
+  color: gray;
+  background-color: yellow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}
+.flex-r8-head {
+  color: white;
+}
+
+@media screen and (max-width: 268px) {
+  footer {
+    display: none;
+  }
+}
+.attribution {
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: white;
+}
+@media screen and (min-width: 268px) {
+  .container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .flex-left {
+    width: 50%;
+  }
+  .flex-right {
+    width: 50%;
+  }
+  footer {
+    margin-top: 50px;
+  }
+  .attribution {
+    color: black;
+    margin-bottom: 20px;
+  }
+  .attribution a {
+    color: black;
+  }
+}
